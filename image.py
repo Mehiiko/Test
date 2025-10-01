@@ -1,11 +1,10 @@
 import cv2
 import numpy as np
 import os
-from matplotlib import pyplot as plt
 
 # Folder wejściowy i wyjściowy
 input_dir = "input"
-output_dir = "realesrgan-ncnn-vulkan/input"
+output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
 
 # Parametry
