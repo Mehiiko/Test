@@ -10,9 +10,9 @@ os.makedirs(output_dir, exist_ok=True)
 
 # Parametry
 RADIUS = 780
-SEARCH_SHIFT = 120
 STEP = 1
 ANGLES = 2880
+SEARCH_SHIFT = int(input("Podaj wartość SEARCH_SHIFT: "))
 
 # Funkcja dopasowania okręgu
 def process_image(img_path, radius=RADIUS):
